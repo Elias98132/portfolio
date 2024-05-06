@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0 solid transparent;
+}
+
+
 p { font-family: sans-serif;
     text-align: center;
   }
@@ -9,7 +16,7 @@ img{
 .sharmout {
     display: grid;
     place-items: center;
-    
+
   }
   .sharmout2{
     display: grid;
@@ -17,18 +24,38 @@ img{
 
 
   }
- .bigger-img{    width: 50%; 
-    height: auto; } 
+ .bigger-img{    width: 50%;
+    height: auto; }
     h2 {text-align: center;}
-    .secondtext { font-family: sans-serif;
+
+
+    .secondtext {
+      font-family: sans-serif;
         text-align: center;
-        background-color: #f105f1; 
+        background-color: #6E07F3;
         color: aliceblue;
+        margin-top: 5rem;
+        padding: 1rem;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
 }
-.sharmout3 {
-    color: aliceblue;
-background-color: #f105f1;}
+
 .centertable{
     margin:0 auto;
-    
+    margin-top: 5rem;
+
+}
+
+.journey-paragraph{
+  margin-top: 3rem;
+  max-width: 70%;
+}
+
+.border-table{
+  border: 0.1rem solid black;
 }
